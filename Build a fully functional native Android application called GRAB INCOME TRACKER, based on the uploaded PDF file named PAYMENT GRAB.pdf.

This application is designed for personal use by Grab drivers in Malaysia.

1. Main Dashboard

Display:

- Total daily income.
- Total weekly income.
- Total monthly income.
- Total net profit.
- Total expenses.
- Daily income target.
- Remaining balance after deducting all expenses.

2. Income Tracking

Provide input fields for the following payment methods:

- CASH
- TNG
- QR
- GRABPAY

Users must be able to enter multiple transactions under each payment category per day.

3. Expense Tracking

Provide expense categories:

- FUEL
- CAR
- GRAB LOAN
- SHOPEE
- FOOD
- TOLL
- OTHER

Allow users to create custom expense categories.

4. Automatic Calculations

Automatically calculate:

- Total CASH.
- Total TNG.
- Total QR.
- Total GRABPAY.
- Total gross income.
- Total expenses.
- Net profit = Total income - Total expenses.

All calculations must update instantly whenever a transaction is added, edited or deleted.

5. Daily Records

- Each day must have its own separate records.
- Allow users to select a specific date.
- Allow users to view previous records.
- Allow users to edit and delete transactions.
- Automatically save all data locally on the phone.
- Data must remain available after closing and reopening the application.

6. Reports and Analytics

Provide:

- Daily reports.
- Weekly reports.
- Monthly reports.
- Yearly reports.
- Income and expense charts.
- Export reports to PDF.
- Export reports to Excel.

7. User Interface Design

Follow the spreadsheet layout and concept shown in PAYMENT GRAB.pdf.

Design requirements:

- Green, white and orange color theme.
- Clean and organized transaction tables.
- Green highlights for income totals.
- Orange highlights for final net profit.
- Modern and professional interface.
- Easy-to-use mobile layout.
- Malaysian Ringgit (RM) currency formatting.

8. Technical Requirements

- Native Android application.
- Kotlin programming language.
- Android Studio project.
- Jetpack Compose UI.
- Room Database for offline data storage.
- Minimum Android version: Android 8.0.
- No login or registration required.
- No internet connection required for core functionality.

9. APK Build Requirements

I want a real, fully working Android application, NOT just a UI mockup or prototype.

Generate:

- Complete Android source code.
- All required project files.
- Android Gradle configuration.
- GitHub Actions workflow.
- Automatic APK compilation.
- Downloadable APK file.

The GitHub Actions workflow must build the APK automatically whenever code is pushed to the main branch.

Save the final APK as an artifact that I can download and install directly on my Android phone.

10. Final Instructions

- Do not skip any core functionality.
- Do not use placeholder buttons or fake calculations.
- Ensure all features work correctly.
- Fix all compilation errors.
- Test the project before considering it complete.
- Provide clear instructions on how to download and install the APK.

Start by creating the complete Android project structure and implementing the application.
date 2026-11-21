@@ -1,0 +1,128 @@
+Build a fully functional native Android application called GRAB INCOME TRACKER, based on the uploaded PDF file named PAYMENT GRAB.pdf.
+
+This application is designed for personal use by Grab drivers in Malaysia.
+
+1. Main Dashboard
+
+Display:
+
+- Total daily income.
+- Total weekly income.
+- Total monthly income.
+- Total net profit.
+- Total expenses.
+- Daily income target.
+- Remaining balance after deducting all expenses.
+
+2. Income Tracking
+
+Provide input fields for the following payment methods:
+
+- CASH
+- TNG
+- QR
+- GRABPAY
+
+Users must be able to enter multiple transactions under each payment category per day.
+
+3. Expense Tracking
+
+Provide expense categories:
+
+- FUEL
+- CAR
+- GRAB LOAN
+- SHOPEE
+- FOOD
+- TOLL
+- OTHER
+
+Allow users to create custom expense categories.
+
+4. Automatic Calculations
+
+Automatically calculate:
+
+- Total CASH.
+- Total TNG.
+- Total QR.
+- Total GRABPAY.
+- Total gross income.
+- Total expenses.
+- Net profit = Total income - Total expenses.
+
+All calculations must update instantly whenever a transaction is added, edited or deleted.
+
+5. Daily Records
+
+- Each day must have its own separate records.
+- Allow users to select a specific date.
+- Allow users to view previous records.
+- Allow users to edit and delete transactions.
+- Automatically save all data locally on the phone.
+- Data must remain available after closing and reopening the application.
+
+6. Reports and Analytics
+
+Provide:
+
+- Daily reports.
+- Weekly reports.
+- Monthly reports.
+- Yearly reports.
+- Income and expense charts.
+- Export reports to PDF.
+- Export reports to Excel.
+
+7. User Interface Design
+
+Follow the spreadsheet layout and concept shown in PAYMENT GRAB.pdf.
+
+Design requirements:
+
+- Green, white and orange color theme.
+- Clean and organized transaction tables.
+- Green highlights for income totals.
+- Orange highlights for final net profit.
+- Modern and professional interface.
+- Easy-to-use mobile layout.
+- Malaysian Ringgit (RM) currency formatting.
+
+8. Technical Requirements
+
+- Native Android application.
+- Kotlin programming language.
+- Android Studio project.
+- Jetpack Compose UI.
+- Room Database for offline data storage.
+- Minimum Android version: Android 8.0.
+- No login or registration required.
+- No internet connection required for core functionality.
+
+9. APK Build Requirements
+
+I want a real, fully working Android application, NOT just a UI mockup or prototype.
+
+Generate:
+
+- Complete Android source code.
+- All required project files.
+- Android Gradle configuration.
+- GitHub Actions workflow.
+- Automatic APK compilation.
+- Downloadable APK file.
+
+The GitHub Actions workflow must build the APK automatically whenever code is pushed to the main branch.
+
+Save the final APK as an artifact that I can download and install directly on my Android phone.
+
+10. Final Instructions
+
+- Do not skip any core functionality.
+- Do not use placeholder buttons or fake calculations.
+- Ensure all features work correctly.
+- Fix all compilation errors.
+- Test the project before considering it complete.
+- Provide clear instructions on how to download and install the APK.
+
+Start by creating the complete Android project structure and implementing the application.
